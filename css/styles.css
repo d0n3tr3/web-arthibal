@@ -28,6 +28,19 @@ h1{
     
     
 }
+p{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+.slids{
+    max-width: 40%;
+    max-height: 40%;
+    margin-left: 400px;
+}
 button{
     background: rgb(185, 185, 173);
     
@@ -55,28 +68,23 @@ button{
 .de{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .btn btn-primary{
     background-color: #717171;
 }
 
 
-
-
-* {box-sizing: border-box;
-margin: 0;
-padding: 0;}
+* {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 400px;
-  max-height: 600px;
+  max-width: 1000px;
   position: relative;
-  margin:auto;
-  margin-top: 20px;
+  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -157,3 +165,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
+
+
