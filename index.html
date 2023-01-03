@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- I make the metas and i put the links of css and librarys of Boostrap-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    
-    <title>ArtHiBal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>pr-1r-tr</title>
 </head>
-<header>
-        <H1 class="nombre">Carpinteria Metálica Arthibal</H1>
-    <ul class="menu">
-        <button type="button" class="btn btn-secondary">Inicio<a class="in" href="index.html"></button>
-        <button type="button" class="btn btn-secondary">La empresa<a class="le" href="laempresa.html"></button>
-        <button type="button" class="btn btn-secondary">Trabajos<a class="tr" href="trabajos.html"></button>
-        <button type="button" class="btn btn-secondary">Contacto<a class="ct" href="contacto.html"></button>
-        <button type="button" class="btn btn-secondary">¿Donde estamos?<a class="de" href="dondeestamos.html"></button>
-    </ul>
-</header>
+
+
 <body>
+    <!-- I make a class container xxl to envolve all-->
+    <div class="container-xxl justify-content-center">
+
+        <!-- I make the navbar-->
+        <header>
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <!-- I make navbar responsive in a hambuerger-->
+
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+                                <!-- this are the links of navbar-->
+                                <a href="index.html">
+                                    <div class="lhw img-article " style="background-image:url('img/logo.png');">
+                                    </div>
+                                </a>
+                                <a class="text-decoration-none text-dark mt-2 m-lg-3 bcn" href="index.html">Populas</a>
+                                <button class="btn btn-danger rounded-3 mt-2 m-lg-3">
+                                    <a class="text-decoration-none text-white" href="laempresa.html">La empresa</a>
+                                </button>
+                                <a class="text-decoration-none text-dark mt-2 m-lg-3 bcn" href="trabajos.html">Trabajos
+                                    list</a>
+                                <a class="text-decoration-none text-dark mt-2 m-lg-3 bcn" href="contacto.html">Contacto</a>
+                                <a class="text-decoration-none text-dark mt-2 m-lg-3 bcn" href="dondeestamos.html">¿Donde estamos?</a>
+                                <i class="bi bi-search m-lg-5"></i>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
 <section class="slids">
   <div class="slideshow-container">
 
