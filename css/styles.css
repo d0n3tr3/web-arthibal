@@ -1,21 +1,8 @@
 
-body{
-    
-}
-header{
-  
-}
-.nombre{
-    color: rgb(10, 10, 10);
-    font-size: x-large;
-    margin-left: 280px;
-}
-h1{
-    width: 800px;
-    height: 50px; 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+.img{
+  background-image: url(img/barandilla-clasic.jpg);
+  background-image: url(img/logo.jpg);
+  background-image: url(img/puerta1.jpg);
 }
 
 .menu{
@@ -30,23 +17,12 @@ h1{
     
     
 }
-p{
-    color: rgb(255, 255, 255);
-    font-size: medium;
-}
-h5{
-    color: rgb(255, 255, 255);
-    font-size: large;
-}
 .slids{
     max-width: 40%;
     max-height: 40%;
     margin-left: 400px;
 }
-button{
-    background: rgb(185, 185, 173);
-    
-}
+
 
 .in{
     color: rgb(255, 255, 255); 
